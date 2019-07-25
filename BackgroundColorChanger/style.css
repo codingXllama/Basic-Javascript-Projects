@@ -8,7 +8,7 @@ body{
 }
 
 /* Styling btn */
-.colorBtn{
+.colorBtn1, .colorBtn2, .colorBtn3{
     padding:0.25rem 0.5rem;
     border:3px solid #000;
     border-radius: 7px;
