@@ -1,0 +1,27 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    /* justify content is used to align the horizontal content in the center */
+    justify-content: center;
+    /* align-items is vertically in the center */
+    align-items: center;
+}
+
+/* Styling btn */
+.colorBtn{
+    padding:0.25rem 0.5rem;
+    border:3px solid #000;
+    border-radius: 7px;
+    color: rgb(241, 241, 241);
+    background: rgba(112, 101, 101, 0.3);
+    font-size:1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline:none;
+}
+
+
+/* Btn hover effect */
+.colorBtn:hover{
+background: rgb(0,0,0);
+}
