@@ -6,7 +6,7 @@ const bodyBackGround= document.querySelector('body');
 
 
 // Creating an array of possible background color
-const possibleColors=['yellow','red','green','#3b5998']
+const possibleColors=['yellow','red','green','#3b5998','purple']
 
 
 // Creating a Btn event listener to do something when btn is clicked

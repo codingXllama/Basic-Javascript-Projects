@@ -1,0 +1,105 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292424;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    overflow:hidden;
+    text-transform: capitalize;
+}
+
+/* Styling the container */
+.container{
+    border:1px solid rgb(0, 0, 0);
+    text-align: center;
+    text-transform: capitalize;
+    padding:2rem;
+    border-radius: 25px;
+    background-color:rgb(255, 255, 255);
+    flex:0 0 50%;
+
+}
+
+/* Styling the btns */
+#quoteBtn{
+    padding:0.25rem 0.5rem;
+    border:none;
+    color:#fff;
+    background:#916464;
+    font-size:1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    outline:none;
+    text-transform: capitalize;
+}
+#bgBtn{
+    padding:0.25rem 0.5rem;
+    border:none;
+    color:#fff;
+    background:#40ac7f;
+    font-size:1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    outline:none;
+    text-transform: capitalize;
+}
+
+/* Creating Btn Hover effect */
+#quoteBtn:hover{
+    color:rgb(22, 22, 22);
+    background:#5dd87891;
+}
+/* Creating Btn Hover effect */
+#bgBtn:hover{
+    color:rgb(22, 22, 22);
+    background:#916464;
+}
+
+/* Creating style for the blockquote */
+blockquote{
+    background:#fff;
+    margin:1.5rem;
+    border-left: 10px solid red;
+    padding:0.5rem;
+    /* border-radius: 555px; */
+    /* animation: loading 20s infinite; */
+}
+
+#quoteAuthor{
+    color:rgb(22, 22, 22);
+}
+
+
+/* @keyframes loading{
+    10%{
+        border-left:30vh solid red;
+    }
+    30%{
+        border-left:40vh solid red;
+    }
+    40%{
+        border-left:50vh solid red;
+    }
+    50%{
+        border-left:60vh solid red;
+    }
+    60%{
+        border-left:70vh solid red;
+    }
+    70%{
+        border-left:80vh solid red;
+    }
+    80%{
+        border-left:90vh solid red;
+    }
+   90%{
+       border-left:95vh solid red;
+
+   }
+   100%{
+       border-left:100vh solid red;
+   }
+     */
+
