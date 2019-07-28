@@ -1,0 +1,59 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #59c099;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+.container{
+    /* border:1px solid red; */
+    text-align: center;
+    padding:2rem;
+    border-radius: 20px;
+    background-color: aliceblue;
+    /* making this container a specific width regarding the screen size */
+    flex: 0 0 80%;
+}
+
+button{
+    display: block;
+    font-size:1.2rem;
+    margin: 1rem auto;
+    outline: none;
+    padding: 0.5rem 1rem;
+    color:white;
+    background: #59c099;
+    border-radius: 8px;
+    border:none;
+}
+
+
+button:hover{
+    background:rgba(240, 86, 86, 0.616);
+    cursor: pointer;
+    opacity:0.8;
+
+}
+
+/* styling the input field */
+input[type=text]
+{
+    padding:0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border:3px solid #70ca70;
+    font-size:1.5rem;
+    outline: none;
+}
+
+
+/* when the user focuses on the input box */
+input[type=text]:focus
+{
+    box-shadow: 0px 0 20px #88e9b9;
+}
+
