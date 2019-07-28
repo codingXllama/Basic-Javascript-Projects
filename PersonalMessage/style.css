@@ -6,6 +6,7 @@ body{
     background: #59c099;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
+    text-transform: capitalize;
 }
 
 
@@ -29,6 +30,7 @@ button{
     background: #59c099;
     border-radius: 8px;
     border:none;
+    text-transform: capitalize;
 }
 
 
@@ -36,6 +38,7 @@ button:hover{
     background:rgba(240, 86, 86, 0.616);
     cursor: pointer;
     opacity:0.8;
+    
 
 }
 
