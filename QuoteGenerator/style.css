@@ -8,6 +8,9 @@ body{
     font-weight: 400;
     overflow:hidden;
     text-transform: capitalize;
+    background-image: url(Imgs/BackgroundImages/bg1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* Styling the container */
@@ -17,7 +20,7 @@ body{
     text-transform: capitalize;
     padding:2rem;
     border-radius: 25px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.568);
     flex:0 0 50%;
 
 }
@@ -59,7 +62,7 @@ body{
 
 /* Creating style for the blockquote */
 blockquote{
-    background:#fff;
+    background:transparent;
     margin:1.5rem;
     border-left: 10px solid red;
     padding:0.5rem;
