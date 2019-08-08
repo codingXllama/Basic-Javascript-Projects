@@ -1,0 +1,57 @@
+html {
+  padding: 0;
+  margin: 0;
+  /* max-width: 400px; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/Counter/thomas-q-3xQ65cknLPk-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.counter-box {
+  /* flex: 0 0 30%; */
+  min-width: auto;
+  text-align: center;
+  border: solid 1px rgb(252, 252, 252);
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 10px 10px black;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+
+  border: none;
+  border-radius: 5%;
+  padding: 0.25rem 0.5rem;
+}
+
+#lowerCounterBtn {
+  background: #cf3d3d;
+}
+
+#addCounterBtn {
+  background: rgb(2, 177, 2);
+}
+
+#lowerCounterBtn:hover {
+  color: Black;
+  background: #ff1f1f7c;
+}
+
+#addCounterBtn:hover {
+  background: rgba(17, 179, 17, 0.479);
+}
+
+.counter {
+  font-size: 3rem;
+}
