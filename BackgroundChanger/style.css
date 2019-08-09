@@ -1,0 +1,21 @@
+body {
+    /* background:url('') */
+    min-height: 100vh;
+    /* background-color: rgb(126, 30, 204); */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/BackgroundChanger/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.images {
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+
+}
