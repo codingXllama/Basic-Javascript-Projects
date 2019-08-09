@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/BackgroundChanger/bg1.jpg);
+    background: url(/BackgroundChanger/bg0.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,5 +17,50 @@ body {
     background: yellow;
     flex: 0 0 80%;
     min-height: 70vh;
+    background: url(/BackgroundChanger/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 5px 10px black;
+    position: relative;
+}
 
+.btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid green;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px black;
+    outline: none;
+
+}
+
+.btn.Back {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%)
+}
+
+.btn.Next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%)
+}
+
+
+/* when btn is clicked */
+.btn:active {
+    background: gray;
+    box-shadow: 1px 1px red;
+}
+
+.btn:hover {
+    background: pink;
+    color: white;
 }
